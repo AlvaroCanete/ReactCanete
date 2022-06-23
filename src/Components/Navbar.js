@@ -1,6 +1,7 @@
 import logo from'../img/imagenlogo.png'
-import cart from '../img/basket-fill.svg'
+import CartWidget from './CartWidget'
 import'./Header/Navbar.css'
+
 const Navbar = () => {
     return(
         <nav className='navegador'>
@@ -11,7 +12,7 @@ const Navbar = () => {
                 <a href="">Tiendas</a>
                 <a href="">Info</a>
             </nav>
-            <img className='cart' src={cart} alt='cart' />
+            < CartWidget />
         </nav>
     )
 }
