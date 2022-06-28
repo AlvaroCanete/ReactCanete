@@ -1,12 +1,10 @@
+import ICount from "./ICount"
 
-const ItemListContainer = () => {
+const ItemListContainer = ( {stock}) => {
     return(
         < >
-        <div>
-            <h3>
-                AQUÍ VA EL ITEM LIST
-            </h3>
-        </div>
+        {stock} 
+        <ICount />
         </>
     )
 }

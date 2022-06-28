@@ -1,7 +1,11 @@
 import Navbar from '../../Components/Navbar.js'
+import ItemListContainer from '../ItemListContainer.js';
 const Header = () => {
     return (
-        <Navbar />  
+        <>
+            <Navbar />
+            <ItemListContainer />
+        </>
     );
     
 }
