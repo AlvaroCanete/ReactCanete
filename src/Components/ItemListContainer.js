@@ -1,10 +1,9 @@
 import ICount from "./ICount"
 
-const ItemListContainer = ( {stock}) => {
+const ItemListContainer = () => {
     return(
-        < >
-        {stock} 
-        <ICount />
+        < > 
+        <ICount initial={1} stock={10}/>
         </>
     )
 }
